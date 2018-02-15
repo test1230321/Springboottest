@@ -13,7 +13,7 @@ public class DockerSpringbootApplication {
 	@RequestMapping("/hello")
     public DockerVO home() {
 		DockerVO docker = new DockerVO();
-		docker.setName("Welcome Docker!!!!");
+		docker.setName("Welcome Openshift!!!!");
 		System.out.println("Test Print"); 
         return docker;
     }
